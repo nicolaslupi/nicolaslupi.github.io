@@ -1,0 +1,83 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-content {
+    background-color: #F9F9F9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    text-align: left;
+  }
+  
+  .profile-image {
+    max-width: 150px; /* Adjust as needed */
+    max-height: 150px; /* Adjust as needed */
+    border-radius: 50%;
+    /* border: 4px solid #007BFF; */
+  }
+  
+  /* Add more custom styles here */
+  
+  /* Responsive design */
+  @media screen and (max-width: 600px) {
+    .wrapper {
+      padding: 10px;
+    }
+  
+  
+  }
+  
